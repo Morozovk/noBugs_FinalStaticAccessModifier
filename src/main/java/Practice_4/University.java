@@ -14,7 +14,7 @@ public class University {
        University.universityName = newName;
     }
 
-    String getStudentName(String studentName){
+    String getStudentName(){
        return studentName;
     }
 

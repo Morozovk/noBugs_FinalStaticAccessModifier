@@ -10,8 +10,8 @@ public class Company {
         this.employeeName = employeeName;
     }
 
-    void printCompanyName(){
-        System.out.println(getEmployeeName() + " Компания: " + companyName);
+    static void printCompanyName(){
+        System.out.println(" Компания: " + companyName);
     }
 
     String getEmployeeName(){

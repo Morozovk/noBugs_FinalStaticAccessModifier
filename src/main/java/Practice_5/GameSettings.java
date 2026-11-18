@@ -5,7 +5,7 @@ public class GameSettings {
     final String gameName;
     int currentPlayers;
 
-    GameSettings(int maxPlayers, String gameName, int currentPlayers){
+    GameSettings(String gameName, int currentPlayers){
         this.gameName = gameName;
         this.currentPlayers = currentPlayers;
     }

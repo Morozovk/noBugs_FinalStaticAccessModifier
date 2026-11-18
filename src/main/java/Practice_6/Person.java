@@ -12,7 +12,7 @@ public class Person {
         this.ssn = ssn;
     }
 
-    String getFirstName(String firstName){
+    String getFirstName(){
         return firstName;
     }
 
@@ -20,7 +20,7 @@ public class Person {
         this.firstName= newFirstName;
     }
 
-    String getLastName(String lastName){
+    String getLastName(){
         return lastName;
     }
 
@@ -28,7 +28,7 @@ public class Person {
         this.lastName = newLastName;
     }
 
-    String getSsn(String ssn){
+    String getSsn(){
         return ssn;
     }
 
