@@ -21,4 +21,8 @@ public class University {
     void printStudentInfo(){
         System.out.println("Имя: " + studentName + " , ID_" + studentID + " , название университета: " + universityName);
     }
+
+    static void setUniversityName(String newUniversityName){
+       University.universityName = newUniversityName;
+    }
 }

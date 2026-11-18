@@ -1,7 +1,7 @@
 package Practice_1;
 
 public class Company {
-    static String companyName;
+    private static String companyName;
     final int employeeID;
     String employeeName;
 
@@ -20,5 +20,9 @@ public class Company {
 
     void setEmployeeName(String newEmployeeName){
         this.employeeName = newEmployeeName;
+    }
+
+    static void setCompanyName(String newCompanyName){
+        Company.companyName = newCompanyName;
     }
 }
